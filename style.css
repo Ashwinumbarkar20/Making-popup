@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url("https://media.istockphoto.com/id/537343874/photo/business-concept-with-sketches-on-the-blackboard.jpg?s=1024x1024&w=is&k=20&c=R2kNZeNS7yC-lUOZBrOVf-iGtxxOmwRFijRJMjvlnG4=");
+   background-color:#a28089;
+    background-size: cover;
+    font-family: 'IBM Plex Mono', monospace;
+    color :#F55050;
+}
+    .container{
+     background-color: #68d388;   
+     display: flex;  
+     flex-direction: column;
+     width:300px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     padding:10px;
+     box-sizing: border-box;
+     color:#1d1e22;
+     border-radius: 15px;
+     box-shadow: 4px 4px 8px rgba(255, 255, 255,0.30);
+    border: 2px solid black;
+      }
+    .container button{
+        padding:10px;
+        border-radius: 15px;
+        background-color: #68d388;
+        border: 2px solid #1400c6;
+        border-color: black;
+    } 
+        .container button:hover{
+        background-color: darkgreen;
+        color:yellow;
+        filter: brightness(1.25);
+   
+    }
+
+.Popup{
+    background-color: #68d388;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        border: 2px solid black;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+        color: #1d1e22;
+        border-radius: 15px;
+        box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.30);
+        top: 50%;
+        left:50%;
+        translate: (-50%,-50%);
+}
+.Popup input{
+width: 100%;
+padding: 5px;
+border-radius: 15px;
+margin:5px
+}
+.Popup button{
+        margin: 10px 5px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #68d388;
+        border: 2px solid #1400c6;
+        border-color: black;
+}
+   .Popup button:hover {
+       background-color: darkgreen;
+       color: yellow;
+       filter: brightness(1.25);
+
+   }
+   .active {
+   
+       display: none;
+   }
